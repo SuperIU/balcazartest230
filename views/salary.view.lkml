@@ -10,7 +10,7 @@ view: salary {
   dimension: dept_name {
     type: string
     # hidden: yes
-    sql: ${TABLE}.Department ;;
+    sql: ${TABLE}.department ;;
   }
 
   dimension: salary {
