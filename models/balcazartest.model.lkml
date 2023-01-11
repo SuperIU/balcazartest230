@@ -64,7 +64,11 @@ explore: order_items {
   }
 }
 
+explore: products {}
+
 explore: users {}
+
+explore: salary {}
 
 explore: user_data {
   join: users {
