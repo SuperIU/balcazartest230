@@ -7,6 +7,12 @@ view: salary {
     sql: ${TABLE}.DeptID ;;
   }
 
+  dimension: dept_name {
+    type: string
+    # hidden: yes
+    sql: ${TABLE}.DeptName ;;
+  }
+
   dimension: salary {
     type: number
     sql: ${TABLE}.Salary ;;
